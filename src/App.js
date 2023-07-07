@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import PathfinderVisualizer from './PathfinderVisualizer/PathfinderVisualiser'
+import PathfinderViusalizer from './PathfinderVisualizer/PathfinderVisualiser';
 
 function App() {
   return (
     <div>
-      <PathfinderVisualizer>
+      <PathfinderViusalizer>
         
-      </PathfinderVisualizer>
+      </PathfinderViusalizer>
     </div>
 
   );
