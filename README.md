@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Path Visualizer Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/AnurajBhaskar47/path_finding_visualiser/assets/97795939/a9023feb-0024-4992-9d4b-77fd246facd9)
 
-## Available Scripts
+The **Path Visualizer Web App** is a web-based tool developed using React.js that allows users to visualize various path-finding algorithms, including Dijkstra's algorithm, A*, Breadth-First Search, Greedy Breadth-First Search, Depth-First Search, Convergent Swarm Algorithm, and Bidirectional Swarm Algorithm. This app provides an interactive and educational way to understand how these algorithms work and find the shortest path between two points on a grid.
 
-In the project directory, you can run:
+## Table of Contents
+<ul>
+  <li>Demo</li>
+  <li>Features</li>
+  <li>Installation</li>
+  <li>Usage</li>
+  <li>Algorithms</li>
+</ul>
 
-### `npm start`
+### Demo
+To see the Path Visualizer Web App in action, you can check out the live demo [here.](https://graphpathvisualiser.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
+<ul>
+  <li>Visualize various path-finding algorithms in real-time.</li>
+  <li>Create custom grids and obstacles.</li>
+  <li>Start and stop algorithms at any time.</li>
+  <li>See detailed step-by-step visualization of the algorithm's progress.</li>
+  <li>Interactive user interface for an easy understanding of the algorithms.</li>
+  <li>Fast and efficient algorithm implementations.</li>
+  <li>Responsive design, suitable for both desktop and mobile devices.</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Algorithms
+The Path Visualizer Web App currently supports the following path-finding algorithms:
 
-### `npm test`
+<details><summary>Dijkstra's Algorithm</summary> 
+     <ul>
+      <li>Dijkstra's algorithm is a weighted graph search algorithm that finds the shortest path between a source node and all other nodes in a graph.</li>
+      <li>It explores nodes in order of their distance from the source node, guaranteeing the shortest path when all edge weights are non-negative.</li>
+    </ul></details>
+<details><summary>A* Algorithm</summary> 
+    <ul>
+      <li>A* is a heuristic-based search algorithm that combines the best features of Dijkstra's algorithm and Greedy Best-First Search.</li>
+      <li>It uses a heuristic function to estimate the cost of reaching the destination, allowing it to explore paths that seem the most promising first.</li>
+    </ul></details>
+<details><summary>Breadth-First Search</summary> 
+     <ul>
+      <li>BFS is an unweighted graph search algorithm that explores all nodes at a given depth level before moving on to the next level.</li>
+      <li>It is guaranteed to find the shortest path in unweighted graphs.</li>
+    </ul></details>
+<details><summary>Greedy Breadth-First Search</summary>
+    <ul>
+      <li>Greedy BFS is a variant of BFS where it uses a heuristic to prioritize nodes for exploration.</li>
+      <li>Unlike A*, it doesn't consider the total cost to reach a node, making it less optimal for certain scenarios.</li>
+    </ul></details>
+<details><summary>Depth-First Search (DFS)</summary>
+    <ul>
+      <li>DFS explores as far down a branch as possible before backtracking.</li>
+      <li>It doesn't guarantee the shortest path and may explore long paths before shorter ones.</li>
+    </ul></details>
+<details><summary>Convergent Swarm Algorithm</summary>
+    <ul>
+      <li>The Convergent Swarm Algorithm is a swarm-based search algorithm inspired by the behavior of birds and insects.</li>
+      <li>It uses a swarm of agents to explore the search space and converge toward the destination.</li>
+    </ul></details>
+<details><summary>Bidirectional Swarm Algorithm</summary>
+    <ul>
+      <li>The Bidirectional Swarm Algorithm is an extension of the Convergent Swarm Algorithm.</li>
+      <li>It explores the search space from both the source and destination simultaneously, aiming to meet in the middle.</li>
+    </ul></details>
+Each algorithm has its unique characteristics and can be selected from the user interface for visualization.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+To run the Path Visualizer Web App locally on your machine, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine using Git:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/AnurajBhaskar47/path_finding_visualiser.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Change to the project directory:
 
-### `npm run eject`
+```bash
+cd path-visualizer
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the project dependencies using npm (Node Package Manager):
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Usage
+After completing the installation steps, you can start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sql
+npm start
+```
+This will launch the web app in your default web browser. You can then interact with the app to visualize different path-finding algorithms.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
