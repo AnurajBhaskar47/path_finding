@@ -15,6 +15,8 @@ The **Path Visualizer Web App** is a web-based tool developed using React.js tha
 
 ### Demo
 To see the Path Visualizer Web App in action, you can check out the live demo [here.](https://graphpathvisualiser.netlify.app/)
+<br><br>
+[  <img src="https://github.com/AnurajBhaskar47/path_finding_visualiser/assets/97795939/90e31e6d-dbae-4404-8c61-75eae2e1fe27" width="500" height="250" alt="DiscussIt Screenshot">](https://graphpathvisualiser.netlify.app/)
 
 ### Features
 <ul>
