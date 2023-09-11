@@ -1,5 +1,7 @@
 # Path Visualizer Web App
 
+### [Deployed Site](https://graphpathvisualiser.netlify.app/) 
+
 ![image](https://github.com/AnurajBhaskar47/path_finding_visualiser/assets/97795939/a9023feb-0024-4992-9d4b-77fd246facd9)
 
 The **Path Visualizer Web App** is a web-based tool developed using React.js that allows users to visualize various path-finding algorithms, including Dijkstra's algorithm, A*, Breadth-First Search, Greedy Breadth-First Search, Depth-First Search, Convergent Swarm Algorithm, and Bidirectional Swarm Algorithm. This app provides an interactive and educational way to understand how these algorithms work and find the shortest path between two points on a grid.
